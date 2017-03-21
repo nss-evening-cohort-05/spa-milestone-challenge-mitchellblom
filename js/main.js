@@ -1,3 +1,11 @@
+
+document.addEventListener("click", function() {
+
+	cArray.loadInventory();
+	console.log(cArray);
+});
+
+
 function populatePage (inventory) {
   CarLot.loadInventory();
   

@@ -9,6 +9,7 @@ var CarLot = (function(cArray) {
         	inventory.push(callback.cars[i]);
         }
         	console.log("inventory to pass to public: ", inventory);
+        	return cArray
     };
 
     function executeOnLoad() {
