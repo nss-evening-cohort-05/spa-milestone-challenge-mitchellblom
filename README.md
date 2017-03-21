@@ -11,11 +11,11 @@
 	- Put at least three cars in the array. -->
 <!-- 1. Use an XHR to load the contents of the JSON file, 
 	- On page load. -->
-	- Parse them into a native JavaScript object.
-1. Loop over your array of cars and build up an HTML string to build a card for each car.
-	- Use Bootstrap to create rows.
-	- Each row should contain 3 columns.
-	- <!-- Have a parent element with a class of `container`. --> 
+<!-- 	- Parse them into a native JavaScript object. -->
+<!-- 1. Loop over your array of cars and build up an HTML string to build a card for each car.
+	- Use Bootstrap to create rows. -->
+<!-- 	- Each row should contain 3 columns. -->
+	<!-- -  Have a parent element with a class of `container`. --> 
 		__Hint:__ You must build up the entire string of columns/rows before injecting into the DOM. 
 		Use a counter variable to know when to close a row after three columns.
 1. Put a standard Bootstrap navbar element at the top of your page.

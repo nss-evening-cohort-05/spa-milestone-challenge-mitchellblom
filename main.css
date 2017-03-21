@@ -1,8 +1,8 @@
 .carCard {
 	display: inline-block;
 	border: 5px solid black;
-	width: 300px;
-	min-height: 550px;
+	width: 25%;
+	min-height: 250px;
 	margin: 25px;
 	text-align: justify;
 	vertical-align: top;

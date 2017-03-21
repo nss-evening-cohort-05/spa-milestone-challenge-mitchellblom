@@ -20,6 +20,27 @@
       "year": "2003",
       "price": "1500",
       "description": "The little engine that could. Still kicking after being gifted around the extended family four times."
+    },
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": "2006",
+      "price": "8999",
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Subaru",
+      "model": "Forester",
+      "year": "2015",
+      "price": "23000",
+      "description": "Beloved, versitile Blom vehicle that beat out every other one in its class after a series of rigorous tests."
+    },
+    {
+      "make": "Honda",
+      "model": "Civic",
+      "year": "2003",
+      "price": "1500",
+      "description": "The little engine that could. Still kicking after being gifted around the extended family four times."
     }
   ]
 }
