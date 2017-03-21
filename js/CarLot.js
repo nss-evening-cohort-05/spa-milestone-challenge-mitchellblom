@@ -9,8 +9,11 @@ var CarLot = (function(cArray) {
         	inventory.push(callback.cars[i]);
         }
         	console.log("inventory to pass to public: ", inventory);
-        	return cArray
     };
+
+    cArray.getInventory = function() {
+        return inventory;
+    }
 
     function executeOnLoad() {
         var data = JSON.parse(this.responseText);
@@ -25,5 +28,7 @@ var CarLot = (function(cArray) {
     inventoryLoader.addEventListener("error", executeOnFail);
     inventoryLoader.open("GET", "inventory.json");
     inventoryLoader.send();
+
+    return cArray;
 
 })(CarLot || {});

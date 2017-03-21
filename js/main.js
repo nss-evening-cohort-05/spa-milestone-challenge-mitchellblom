@@ -1,8 +1,11 @@
 
-document.addEventListener("click", function() {
-
-	cArray.loadInventory();
-	console.log(cArray);
+document.addEventListener("click", function() {		// temporarily listening to the whole doc
+	var publicInventory = CarLot.getInventory();
+	console.log(publicInventory);
+	for (var i = 0; i < publicInventory.length; i++) {
+		carsForDom = "";
+		carsForDom += <p>${}
+	}
 });
 
 
