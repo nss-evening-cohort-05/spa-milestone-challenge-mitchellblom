@@ -7,15 +7,17 @@
 
 ### Behavior
 
-1. Create an array of cars in the `inventory.json` file. 
-	- Put at least three cars in the array.
+<!-- 1. Create an array of cars in the `inventory.json` file. 
+	- Put at least three cars in the array. -->
 1. Use an XHR to load the contents of the JSON file, 
 	- On page load.
 	- Parse them into a native JavaScript object.
 1. Loop over your array of cars and build up an HTML string to build a card for each car.
 	- Use Bootstrap to create rows.
 	- Each row should contain 3 columns.
-	- Have a parent element with a class of `container`. __Hint:__ You must build up the entire string of columns/rows before injecting into the DOM. Use a counter variable to know when to close a row after three columns.
+	- <!-- Have a parent element with a class of `container`. --> 
+		__Hint:__ You must build up the entire string of columns/rows before injecting into the DOM. 
+		Use a counter variable to know when to close a row after three columns.
 1. Put a standard Bootstrap navbar element at the top of your page.
 1. Put a text input field in the navigation bar.
 1. Make sure you display all properties of the car in the DOM. 
@@ -24,10 +26,11 @@
 1. Change the width of the border to a higher value, 
 	- When you click on one of the car elements.
 	- Change the background color to any other color of your choosing
-1. clear the value of the text input in the navbar, 
+1. Clear the value of the text input in the navbar, 
 	- On click of the car element
 	- Put the cursor in the text input.
-1. When you start typing into the navbar's text input, the **description**, and only that property, of the currently selected car should be bound to what you are typing in and match it exactly.
+1. Bind exactly only the description of the selected car to the navbar's text input
+	- When type is entered into it
 
 ### Technical Requirements
 
