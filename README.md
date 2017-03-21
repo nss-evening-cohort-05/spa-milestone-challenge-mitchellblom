@@ -9,8 +9,8 @@
 
 <!-- 1. Create an array of cars in the `inventory.json` file. 
 	- Put at least three cars in the array. -->
-1. Use an XHR to load the contents of the JSON file, 
-	- On page load.
+<!-- 1. Use an XHR to load the contents of the JSON file, 
+	- On page load. -->
 	- Parse them into a native JavaScript object.
 1. Loop over your array of cars and build up an HTML string to build a card for each car.
 	- Use Bootstrap to create rows.

@@ -4,11 +4,9 @@ var CarLot = (function(cArray) {
     var inventoryLoader = new XMLHttpRequest();
 
     loadInventory = function(callback) { // data becomes callback
-        console.log(callback.cars.length);
         for (var i = 0; i < callback.cars.length; i++) {
         	inventory.push(callback.cars[i]);
         }
-        	console.log("inventory to pass to public: ", inventory);
     };
 
     cArray.getInventory = function() {
