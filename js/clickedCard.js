@@ -17,14 +17,28 @@ var CarLot = (function(cArray) {
     });
 
     window.addEventListener("click", function(e) {
-            if (e.target.classList.value === "descrip-div") {
-                console.log(userInputTextbox.value);
+        if (e.target.classList.value === "descrip-div") {
+            console.log(userInputTextbox.value);
+            userInputTextbox.value = "";
+            userInputTextbox.focus();
+            clickedDescrip = e.target;
+            userInputTextbox.value = clickedDescrip.innerHTML;
+            userInputTextbox.addEventListener("keyup", function() {
+                clickedDescrip.innerHTML = userInputTextbox.value;
+                userInputTextbox.onkeydown = function() {
+                    if (window.event.keyCode === 13) {
+                        clickedDescrip = "";
+                        userInputTextbox.value = "";
+                    }
+                }
+            });
+        }
+            else {
+                clickedDescrip = "";
                 userInputTextbox.value = "";
-                userInputTextbox.focus();
-                // bind input textbox to description text
             }
-        });
+    });
 
-        return cArray;
+    return cArray;
 
 })(CarLot || {});
