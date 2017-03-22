@@ -6,7 +6,6 @@ var CarLot = (function(cArray) {
     loadInventory = function(callback) { // data becomes callback
         for (var i = 0; i < callback.cars.length; i++) {
         	inventory.push(callback.cars[i]);
-        	console.log("this is where i want to write cars to array");
         }
         	CarLot.populatePage();
     };

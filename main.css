@@ -1,4 +1,4 @@
-.carCard {
+.car-card {
 	display: inline-block;
 	border: 2px solid black;
 	width: 25%;
@@ -8,4 +8,8 @@
 	vertical-align: top;
 	border-radius: 2%;
 	padding: 3%;
+}
+
+.clicked {
+	border: 5px solid blue;
 }
