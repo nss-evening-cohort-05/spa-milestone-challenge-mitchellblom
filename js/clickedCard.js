@@ -18,7 +18,6 @@ var CarLot = (function(cArray) {
 
     window.addEventListener("click", function(e) {
         if (e.target.classList.value === "descrip-div") {
-            console.log(userInputTextbox.value);
             userInputTextbox.value = "";
             userInputTextbox.focus();
             clickedDescrip = e.target;
