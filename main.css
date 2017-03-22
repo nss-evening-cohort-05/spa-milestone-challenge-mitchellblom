@@ -1,9 +1,11 @@
 .carCard {
 	display: inline-block;
-	border: 5px solid black;
+	border: 2px solid black;
 	width: 25%;
 	min-height: 250px;
 	margin: 25px;
-	text-align: justify;
+	text-align: center;
 	vertical-align: top;
+	border-radius: 2%;
+	padding: 3%;
 }
