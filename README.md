@@ -1,6 +1,6 @@
 # NSS Single Page Application - Milestone Challenge
 
-![Splashpage]()
+![Splashpage](https://raw.githubusercontent.com/nss-evening-cohort-05/spa-milestone-challenge-mitchellblom/challenge/spa-quiz.png)
 
 ## SUMMARY
  - A combination of this milestone, focusing on Single Page Application concepts.
