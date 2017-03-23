@@ -15,6 +15,7 @@ var CarLot = (function(cArray) {
     }
 
     function executeOnLoad() {
+        CarLot.activateEvents();
         var data = JSON.parse(this.responseText);
         loadInventory(data);
     };
