@@ -1,11 +1,20 @@
 # NSS Single Page Application - Milestone Challenge
 
+![Splashpage]()
+
+## SUMMARY
+ - 
+
+<hr>
+
 ### GOAL
 
  - Have an application where you can update the description and availability of each car in your inventory. 
  - Use the Bootstrap grid to lay out your HTML structure.
 
-### Behavior
+<hr>
+
+### REQUIREMENTS
 
 1. Create an array of cars in the `inventory.json` file. 
 	- Put at least three cars in the array.
@@ -31,6 +40,8 @@
 	- Put the cursor in the text input.
 1. Bind exactly only the description of the selected car to the navbar's text input
 	- When type is entered into it
+
+<hr>
 
 ### Technical Requirements
 
