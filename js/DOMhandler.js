@@ -1,25 +1,18 @@
 var CarLot = (function(cArray) {
 
-cArray.activateEvents = function() {
+	var userInputTextbox = document.getElementById("input-text");
 
-	var container = document.getElementById("container");
-    var carCard = document.getElementsByClassName("car-card");
-    var userInputTextbox = document.getElementById("input-text");
+    cArray.activateEvents = function() {
 
-    window.addEventListener("click", function(e) {
-        CarLot.clickedCard(e);
-        CarLot.linkDescrip(e);
-    });
+        window.addEventListener("click", function(e) {
+            CarLot.removeClickedClass(e);
+            CarLot.addClickedClass(e);
+            CarLot.linkDescrip(e);
+        });
 
-    userInputTextbox.addEventListener("keyup", function() {
-                clickedDescrip.innerHTML = userInputTextbox.value;
-                userInputTextbox.onkeydown = function() {
-                    if (window.event.keyCode === 13) {
-                        clickedDescrip = "";
-                        userInputTextbox.value = "";
-                    }
-                }
-            });
+        userInputTextbox.addEventListener("keyup", function() {
+            CarLot.clearTempValues();
+        });
 
     };
 

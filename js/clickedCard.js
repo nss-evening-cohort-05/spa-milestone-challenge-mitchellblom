@@ -1,11 +1,15 @@
 var CarLot = (function(cArray) {
 
+    var userInputTextbox = document.getElementById("input-text");
 
-    cArray.clickedCard = function(e) {
+    cArray.removeClickedClass = function(e) {
         var carCard = document.getElementsByClassName("car-card");
         for (var i = 0; i < cArray.getInventory().length; i++) {
             carCard[i].classList.remove("clicked");
         }
+    };
+
+    cArray.addClickedClass = function(e) {
         if (e.target.classList.value === "car-card") {
             for (var j = 0; j < cArray.getInventory().length; j++) {
                 e.target.classList.add("clicked");
@@ -16,18 +20,26 @@ var CarLot = (function(cArray) {
     };
 
     cArray.linkDescrip = function(e) {
-        var userInputTextbox = document.getElementById("input-text");
         if (e.target.classList.value === "descrip-div") {
             userInputTextbox.value = "";
             userInputTextbox.focus();
             clickedDescrip = e.target;
             userInputTextbox.value = clickedDescrip.innerHTML;
-            
         } else {
             clickedDescrip = "";
             userInputTextbox.value = "";
         }
     };
+
+    cArray.clearTempValues = function(e) {
+        clickedDescrip.innerHTML = userInputTextbox.value;
+        userInputTextbox.onkeydown = function() {
+            if (window.event.keyCode === 13) {
+                clickedDescrip = "";
+                userInputTextbox.value = "";
+            }
+        }
+    }
 
     return cArray;
 
