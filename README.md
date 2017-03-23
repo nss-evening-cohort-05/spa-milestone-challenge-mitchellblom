@@ -3,7 +3,7 @@
 ![Splashpage]()
 
 ## SUMMARY
- - 
+ - A combination of this milestone, focusing on Single Page Application concepts.
 
 <hr>
 
@@ -14,7 +14,7 @@
 
 <hr>
 
-### REQUIREMENTS
+### SUMMARIZED INSTRUCTIONS
 
 1. Create an array of cars in the `inventory.json` file. 
 	- Put at least three cars in the array.
@@ -43,7 +43,7 @@
 
 <hr>
 
-### Technical Requirements
+### TECHNICAL REQUIREMENTS
 
 1. Create one global variable (e.g. `CarLot`) and use the IIFE pattern to augment it two times in separate JavaScript files.
 1. IIFE ONE:
@@ -53,9 +53,7 @@
 	Augment the original one with a function that creates all of the `eventHandlers` that you need for the application. Name the function `activateEvents`.
 1. IIFE THREE 
 	Augment the object with two more functions. 
-		First function resets the border thickness and background color for each car element back to the original values. Second function changes the thickness of the border of a car element, and changes its background color. The function must accept two arguments.
-    1. A car DOM element that was clicked on.
-    1. A color name of your choice (see behavior requirement 5 above).
+		First function resets the border thickness and background color for each car element back to the original values. Second function changes the thickness of the border of a car element, and changes its background color.
 1. Have a complete Readme
 
 
