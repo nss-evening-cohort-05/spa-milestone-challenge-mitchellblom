@@ -1,9 +1,9 @@
 var CarLot = (function(cArray) {
 
     var userInputTextbox = document.getElementById("input-text");
+    var carCard = document.getElementsByClassName("car-card");
 
     cArray.removeClickedClass = function(e) {
-        var carCard = document.getElementsByClassName("car-card");
         for (var i = 0; i < cArray.getInventory().length; i++) {
             carCard[i].classList.remove("clicked");
         }
@@ -39,7 +39,7 @@ var CarLot = (function(cArray) {
                 userInputTextbox.value = "";
             }
         }
-    }
+    };
 
     return cArray;
 
