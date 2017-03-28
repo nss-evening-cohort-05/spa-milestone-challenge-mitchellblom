@@ -2,6 +2,7 @@ var CarLot = (function(cArray) {
 
     var userInputTextbox = document.getElementById("input-text");
     var carCard = document.getElementsByClassName("car-card");
+    var clickedDescrip = document.getElementsByClassName("descrip-div");
 
     cArray.removeClickedClass = function(e) {
         for (var i = 0; i < cArray.getInventory().length; i++) {
@@ -10,17 +11,18 @@ var CarLot = (function(cArray) {
     };
 
     cArray.addClickedClass = function(e) {
-        if (e.target.classList.value === "car-card") {
+        if (e.target.classList.value === "col-md-4 car-card") {
             for (var j = 0; j < cArray.getInventory().length; j++) {
                 e.target.classList.add("clicked");
             }
-        } else if (e.target.parentNode.classList.value === "car-card") {
+        } else if (e.target.parentNode.classList.value === "col-md-4 car-card") {
             e.target.parentNode.classList.add("clicked");
         }
     };
 
     cArray.linkDescrip = function(e) {
-        if (e.target.classList.value === "descrip-div") {
+        console.log(e.target.classList.value);
+        if (e.target.classList.value === "col-md-4 car-card clicked") {
             userInputTextbox.value = "";
             userInputTextbox.focus();
             clickedDescrip = e.target;
