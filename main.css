@@ -32,10 +32,18 @@ h3, h5 {
 	font-family: 'Gloria Hallelujah', cursive;
 	text-align: center;
 	margin: 3%
+	text-size: 4em;
 }
 
 input {
-	width: 45%;
-	opacity : 0.9;
+	width: 55%;
 	margin: auto;
+}
+
+.navbar-header {
+	min-width: 25%;
+}
+
+.navbar {
+	opacity : 0.96;
 }
