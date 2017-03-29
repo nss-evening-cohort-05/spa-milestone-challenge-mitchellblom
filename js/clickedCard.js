@@ -21,8 +21,7 @@ var CarLot = (function(cArray) {
     };
 
     cArray.linkDescrip = function(e) {
-        console.log(e.target.classList.value);
-        if (e.target.classList.value === "col-md-4 car-card clicked") {
+        if (e.target.classList.value === "descrip-div") {
             userInputTextbox.value = "";
             userInputTextbox.focus();
             clickedDescrip = e.target;
