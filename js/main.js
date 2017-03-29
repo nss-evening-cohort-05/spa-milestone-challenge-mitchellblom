@@ -11,6 +11,13 @@ cArray.populatePage = function() {
         carsForDom += `<tr>`;
 		carsForDom += `<td><div class="make">${publicInventory[i].make}</div></td>`;
         carsForDom += `<td><div class="yearAndModel">${publicInventory[i].year} ${publicInventory[i].model}</div></td>`;
+        carsForDom += `<div class="row">`
+        carsForDom += `<div class="col-md-12">`;
+        carsForDom += `<a href="#" class="thumbnail">`;
+        carsForDom += `<img src="images/${publicInventory[i].make}.jpg" alt="Vehicle Image">`;
+        carsForDom += `</a>`;
+        carsForDom += `</div>`;
+        carsForDom += `</div>`;
         carsForDom += `<td>$${publicInventory[i].price}</td>`;
         carsForDom += `<td><div class="descrip-div">${publicInventory[i].description}</div></td>`;
         carsForDom += `</tr>`;
