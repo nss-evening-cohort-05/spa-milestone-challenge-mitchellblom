@@ -3,6 +3,10 @@ body {
 	background-image: url("https://ocmsites.org/news/wp-content/uploads/sites/15/2015/10/parking.jpg");
 }
 
+.container {
+	margin: 5%;
+}
+
 .car-card {
 	border: 2px solid black;
 	width: 250px;
@@ -50,4 +54,8 @@ input {
 
 .col-md-12 {
 	opacity: 1;
+}
+
+.thumbnail {
+	justify-content: space-around;
 }
