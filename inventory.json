@@ -1,0 +1,46 @@
+{
+  "cars": [
+    {
+      "make": "Volvo",
+      "model": "240 GL",
+      "year": "1990",
+      "price": "975",
+      "description": "Talk about a vintage roadster! Hauls everything including old bikes and kids to and from soccer."
+    },
+    {
+      "make": "Subaru",
+      "model": "Forester",
+      "year": "2015",
+      "price": "23,000",
+      "description": "Makes you feel like you live in Denver even if you don't. Or helps you go camping with your three buddies."
+    },
+    {
+      "make": "Honda",
+      "model": "Civic",
+      "year": "2003",
+      "price": "1,500",
+      "description": "The little engine that could. Still kicking after being gifted around the extended family four times."
+    },
+    {
+      "make": "Ford",
+      "model": "Excursion",
+      "year": "2007",
+      "price": "10,995",
+      "description": "Ever feel like you want to own the biggest, baddest, most polluting personal vehicle? Here you go."
+    },
+    {
+      "make": "Saturn",
+      "model": "Vue",
+      "year": "2006",
+      "price": "4,445",
+      "description": "If you're lucky it might make it to the next state. It might not. But for that price it's a steal isn't it?"
+    },
+    {
+      "make": "Pontiac",
+      "model": "Aztec",
+      "year": "2009",
+      "price": "8,689",
+      "description": "After Forbes voted it the ugliest car on the market several years running, they finally got the hint."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+body {
+	font-family: sans-serif;
+	background-image: url("https://ocmsites.org/news/wp-content/uploads/sites/15/2015/10/parking.jpg");
+}
+
+.container {
+	margin: 5%;
+}
+
+.car-card {
+	border: 2px solid black;
+	width: 250px;
+	height: 350px;
+	margin: 25px;
+	text-align: center;
+	border-radius: 2%;
+	padding: 2%;
+	background: white;
+	opacity : 0.9;
+}
+
+.clicked {
+	border: 5px solid darkblue;
+	background-color: gray;
+	color: white;
+}
+
+.make, .yearAndModel {
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+	margin: 3%
+	text-size: 1.1em;
+}
+
+.logo {
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+	margin: 3%
+	text-size: 4em;
+}
+
+input {
+	width: 50%;
+	margin: auto;
+}
+
+.navbar-header {
+	min-width: 25%;
+}
+
+.navbar {
+	opacity : 0.96;
+}
+
+.col-md-12 {
+	opacity: 1;
+}
+
+.thumbnail {
+	justify-content: space-around;
+}
